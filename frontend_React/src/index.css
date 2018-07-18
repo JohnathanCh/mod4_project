@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.hero-list {
+  overflow: scroll;
+  height: 750px;
+}
+
+.team {
+  background-color: rgb(225, 227, 232);
+  margin-top: 50px;
+  border-radius: 5px;
+}

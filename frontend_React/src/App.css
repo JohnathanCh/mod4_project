@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  /* align-content: center; */
+  display: flex;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.heroContainer {
+  width: 30%;
+  display: flex;
+  border: 3px solid black;
+}
+
+.heroCard {
+  border: 5px dotted teal;
+}
+
+.logout {
+  align-content: right;
+  width: 100px;
+  height: 30px;
+}
+
+.navbar {
+  width: 100%;
+}
